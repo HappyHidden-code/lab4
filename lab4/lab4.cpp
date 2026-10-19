@@ -7,10 +7,11 @@ int main()
 	SetConsoleOutputCP(1251);
 	int n;
 	int hundres, tens;
-	cout << "Enter a three - digit number: ";
+	cout << "Program started - Lab 6";
 	cin >> n;
 	hundres = n / 100;
 	tens = (n / 10) % 10;
 	cout << ((hundres > tens) ? "True" : "False") << endl;
 	return 0;
-}
+}\
+// Зміна для лабораторної роботи 
